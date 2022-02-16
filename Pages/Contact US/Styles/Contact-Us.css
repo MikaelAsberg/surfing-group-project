@@ -52,6 +52,20 @@ body{
     margin-left: 75px;
     cursor: pointer;
 }
+.input-field:hover{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 275% */
+    color: #4A4848;
+    border-color: #bdc1c2;
+    background-color: #bceaf8;
+    margin-top: 30px;
+    margin-left: 75px;
+    cursor: pointer;
+}
 .submit-btn{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -64,6 +78,21 @@ body{
     height: 38px;
     left: -40%;
     background: #F9BE28;
+    border: none;
+    border-radius: 40%;
+}
+.submit-btn:hover{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    top: 85px;
+    width: 100px;
+    height: 38px;
+    left: -40%;
+    background: #f5cd6a;
     border: none;
     border-radius: 40%;
 }
