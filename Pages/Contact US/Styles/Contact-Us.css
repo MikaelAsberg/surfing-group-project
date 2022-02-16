@@ -3,6 +3,11 @@ body{
     height: 1024px;
     width: 100%;
 }
+.foto{
+    width: 800px;
+    height: 300px;
+    margin-left: 50px;
+ }
 .items{
     max-width: 800px;
     height: 400px;
