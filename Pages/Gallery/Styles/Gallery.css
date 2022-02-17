@@ -1,0 +1,50 @@
+body {
+    width: 800px;
+    height: 1200px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div {
+    margin: 20px;
+}
+
+.purple {
+    background-color: purple;
+    width: 308px;
+    height: 340px;
+}
+
+.red {
+    background-color: red;
+    width: 308px;
+    height: 382px;
+}
+
+.blue {
+    background-color: blue;
+    width: 646px;
+    height: 340px;
+}
+
+.green {
+    background-color: green;
+    width: 308px;
+    height: 458px;
+}
+
+.sage {
+    background-color: seagreen;
+    width: 308px;
+    height: 298px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 308px;
+    height: 222px;
+}
