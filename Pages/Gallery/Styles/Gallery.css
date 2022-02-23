@@ -1,13 +1,13 @@
 body {
-    width: 800px;
-    height: 1200px;
+    /* width: 800px;
+    height: 1200px; */
 }
 
-main {
+/* main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-}
+} */
 
 /* div {
     margin: 20px;
@@ -37,23 +37,23 @@ main {
 .blue {
     background-color: blue;
     grid-row: 1 / 7;
-    grid-column: 3 / 4;
+    grid-column: 3 / 5;
 }
 
 .green {
     background-color: green;
-    width: 308px;
-    height: 458px;
+    grid-row: 6 / 13;
+    grid-column: 1 / 2;
 }
 
 .sage {
     background-color: seagreen;
-    width: 308px;
-    height: 298px;
+    grid-row: 7 / 11;
+    grid-column: 2 / 3;
 }
 
 .yellow {
     background-color: yellow;
-    width: 308px;
-    height: 222px;
+    grid-row: 6 / 7;
+    grid-column: 3 / 4;
 }
