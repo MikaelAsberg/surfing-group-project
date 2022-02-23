@@ -9,26 +9,35 @@ main {
     width: 100%;
 }
 
-div {
+/* div {
     margin: 20px;
+} */
+
+.grid_container {
+    display: grid;
+    grid-template-columns: (repeat(4, 1fr));
+    grid-template-rows: (repeat(17,1fr));
+    grid-gap: 15px;
+    width: 85%;
+    height: 80%;
 }
 
 .purple {
     background-color: purple;
-    width: 308px;
-    height: 340px;
+    grid-row: 1 / 6;
+    grid-column: 1 / 2;
 }
 
 .red {
     background-color: red;
-    width: 308px;
-    height: 382px;
+    grid-row: 1 / 7;
+    grid-column: 2 / 3;
 }
 
 .blue {
     background-color: blue;
-    width: 646px;
-    height: 340px;
+    grid-row: 1 / 7;
+    grid-column: 3 / 4;
 }
 
 .green {
