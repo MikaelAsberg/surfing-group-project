@@ -10,34 +10,25 @@
 <body>
     <header>
         <nav>
-            <div class="container">
-                <div class="logo">
-                    <p>ALOHASURFS</p>
-                </div>
-                <ul class="nav-list">
-                    <li>
-                        <a href="#">about us</a>
-                    </li>
-                    <li>
-                        <a href="#">our product</a>
-                    </li>
-                    <li>
-                        <a href="#">gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">contact us</a>
-                    </li>
+            <nav class="nav">
+                <div class="nav__logo"><h4 class="logo">ALOHA<span class="logo__surfs">SURFS</span></h4></div>
+                <ul class="nav__list">
+                    <li class="nav__li"><a class="nav__link" href="#">ABOUT US</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#">PRODUCT</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#">GALLERY</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#">CONTACT</a></li>
                 </ul>
-                <button class="sign-btn">
-                    <a href="#">Sign up</a>
-                </button>
-            </div>
+                <div class="nav__btn"><button class="btn">SIGN UP</button></div>
+            </nav>
         </nav>
     </header>
     <main>
         <section class="main-foto">
             <div class="foto">
-               <img src="images/surfing-600.jpg" alt="surf">
+                <img src="images/surfing-600.jpg" alt="surf">
+            </div>
+            <div class="page-foto">
+                <img src="images/Hero-Img.png" alt="pic">
             </div>
         </section>
         <div class="items">
@@ -48,19 +39,19 @@
                     <input type="text" name="name" id="name" class="input-field" placeholder="Name"><br>
                     <input type="email" name="email" id="email" class="input-field" placeholder="Your email address"><br>
                     <textarea name="message" class="input-field" placeholder="Message"></textarea>
-                    <button type="submit" class="submit-btn">Submit</button>
                 </form>
+                <button type="submit" class="submit-btn">Submit</button>
             </section>
             <section class="side-bar">
                 <h4 class="side-bar_title">Connect with us</h4>
-                <p class="side-bar_support"> For support or any questions:</p>
-                <p class="side-bar_email">Email us at contact@aloha.se</p>
+                <p class="side-bar_text"> For support or any questions:</p>
+                <p class="side-bar_text">Email us at contact@aloha.se</p>
                 <h5 class="side-bar_title">Wellcome to ALOHA SURF</h5>
-                <p class="address">Stora kvangatan 3 , Malmö</p>
-                <p class="postal-address">Stora kvarngatan 3, Malmö , 22 177</p>
+                <p class="side-bar_text">Stora kvangatan 3 , Malmö</p>
+                <p class="side-bar_text">Stora kvarngatan 3, <br> Malmö , 22 177</p>
                 <h5 class="side-bar_title">Telephone:</h5>
-                <p>+46 790430098</p>
-           </section>
+                <p class="side-bar_text">+46 790430098</p>
+            </section> 
         </div>
     </main>
     <footer>
@@ -68,8 +59,3 @@
     
 </body>
 </html>
-
-
-
-
-
