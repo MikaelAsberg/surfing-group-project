@@ -1,12 +1,102 @@
-footer {
-    background-color: green;
+.footer__container {
+    background-color: #165A68;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+%button {
+    background: #F9BE28;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 50px;
+}
+
+.footer__logo {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+.flogo {
+    font-family: Lato;
+    font-style: 900;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 62px;
+    /* identical to box height, or 258% */
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.flogo__surfs {
+    font-family: Lato;
+    font-style: 400;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 62px;
+    /* identical to box height, or 258% */
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.footer__li {
+    list-style: none;
+}
+
+.footer__list { /*get ridd of ul inline 40px padding */
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    column-gap: 10px;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-direction: row;
+    // place-items: center;
+}
+
+.footer__linebox {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    width: 100%;
     display: grid;
     place-content: center;
 }
 
-.footer__container {
-    background-color: pink;
+.footer__line {
+    background-color: #FFF;
+    height: 6px;
+    width: 1191px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+}
+
+.footer__btn {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+
+.btn {
+    @extend %button;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
+
+.footer__rights {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
 }
