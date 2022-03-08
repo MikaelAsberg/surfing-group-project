@@ -1,3 +1,4 @@
+@use 'font';
 body{
     max-width: 800px;
     min-height: 1200px;
@@ -5,3 +6,105 @@ body{
     background-color: #E5E5E5;
     margin: auto;
 }
+.main-foto{
+    display: flex;
+}
+.page-foto{
+    max-width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    max-width: 400px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+ }
+.items{
+    max-width: 800px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+}
+.content{
+    max-width: 500px;
+    min-height: 400px;
+    width: 100%;
+}
+.Title{
+    font-family: font.$main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 42px;
+    /* identical to box height, or 86% */
+    color: #145967;
+}
+.info{
+    font-family: font.$main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 275% */
+    color: #4A4848;
+    flex-wrap: wrap;
+    line-height: 20px
+}
+.input-field{
+    font-family: font.$main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 275% */
+    color: #4A4848;
+    border-color: #bdc1c2;
+    background-color: #72d2f0;
+    margin-top: 30px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.input-field:hover{
+    background-color: #c7e9f3;
+}
+.submit-btn{
+    padding: 10px 30px;
+    white-space: nowrap;
+    background: #F9BE28;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.submit-btn:hover{
+    background: #f5cd6a;
+}
+.side-bar{
+    margin-left: 20px;
+    max-width: 300px;
+    min-height: 400px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 275% */
+    color: #4A4848;
+    flex-wrap: wrap;
+    line-height: 15px;
+
+}
+.side-bar_title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #145967;
+    line-height: 30px;
+}
+
