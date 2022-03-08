@@ -57,7 +57,8 @@
     list-style: none;
 }
 
-.nav__list { /*get ridd of ul inline 40px padding */
+.nav__list { 
+    /*get ridd of ul inline 40px padding */
     grid-column: 8 / 11;
     grid-row: 1 / 2;
     white-space: nowrap;
@@ -65,10 +66,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     column-gap: 10px;
-    // display: flex;
-    // justify-content: space-around;
-    // flex-direction: row;
-    // place-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    place-items: center;
 }
 
 .nav__link {
