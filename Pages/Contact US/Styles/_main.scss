@@ -1,5 +1,12 @@
 body{
     text-align: center;
+<<<<<<< HEAD
+=======
+}
+.main__container{
+    min-height: 100vh;
+    margin: 5vw;
+>>>>>>> 17052e7f3f7205f0d098dcbaad47775326df4a10
 }
 .main__container{
     min-height: 100vh;
@@ -7,19 +14,18 @@ body{
 }
 .page-foto{
     max-width: 200px;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: row;
 }
 .foto{
     max-width: 400px;
-    max-height: 300px;
-    height: 100%;
+    min-height: 300px;
     width: 100%;
  }
 .items{
     max-width: 800px;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     position: relative;
     display: flex;

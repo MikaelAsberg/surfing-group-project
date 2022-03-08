@@ -13,7 +13,6 @@ footer {
     grid-column: 3 / 5;
     grid-row: 1 / 2;
 }
-
 .flogo {
     font-family: 'Lato', sans-serif;
     font-style: 900;
@@ -48,18 +47,18 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     column-gap: 10px;
-    // display: flex;
-    // justify-content: space-around;
-    // flex-direction: row;
-    // place-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    place-items: center;
 }
 
-// .footer__linebox {
-//     grid-column: 3 / 12;
-//     grid-row: 3 / 4;
-//     display: grid;
-//     place-content: center;
-// }
+.footer__linebox {
+grid-column: 3 / 12;
+grid-row: 3 / 4;
+display: grid;
+place-content: center;
+}
 
 .footer__line {
     grid-column: 3 / 12;
