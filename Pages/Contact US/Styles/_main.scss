@@ -1,29 +1,27 @@
-@use 'font';
 body{
-    max-width: 800px;
-    min-height: 1200px;
-    width: 100%;
-    background-color: #E5E5E5;
-    margin: auto;
+    text-align: center;
+}
+.main__container{
+    min-height: 100vh;
+    margin: 5vw;
 }
 .main-foto{
     display: flex;
 }
 .page-foto{
     max-width: 200px;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: row;
 }
 .foto{
     max-width: 400px;
-    max-height: 300px;
-    height: 100%;
+    min-height: 300px;
     width: 100%;
  }
 .items{
     max-width: 800px;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     position: relative;
     display: flex;
@@ -35,7 +33,7 @@ body{
     width: 100%;
 }
 .Title{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -44,7 +42,7 @@ body{
     color: #145967;
 }
 .info{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -54,7 +52,7 @@ body{
     line-height: 20px
 }
 .input-field{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -100,7 +98,7 @@ body{
 
 }
 .side-bar_title{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;

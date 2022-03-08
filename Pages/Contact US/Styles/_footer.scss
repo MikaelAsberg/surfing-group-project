@@ -1,4 +1,3 @@
-@use 'font';
 footer {
     background-color: #165A68;
 }
@@ -16,7 +15,7 @@ footer {
 }
 
 .flogo {
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: 900;
     font-weight: 800;
     font-size: 24px;
@@ -27,7 +26,7 @@ footer {
 }
 
 .flogo__surfs {
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: 400;
     font-weight: 300;
     font-size: 24px;
@@ -49,18 +48,18 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     column-gap: 10px;
-    // display: flex;
-    // justify-content: space-around;
-    // flex-direction: row;
-    // place-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    place-items: center;
 }
 
-// .footer__linebox {
-//     grid-column: 3 / 12;
-//     grid-row: 3 / 4;
-//     display: grid;
-//     place-content: center;
-// }
+.footer__linebox {
+grid-column: 3 / 12;
+grid-row: 3 / 4;
+display: grid;
+place-content: center;
+}
 
 .footer__line {
     grid-column: 3 / 12;
