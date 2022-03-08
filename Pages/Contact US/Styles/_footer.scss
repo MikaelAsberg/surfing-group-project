@@ -1,3 +1,4 @@
+@use 'font';
 footer {
     background-color: #165A68;
 }
@@ -15,7 +16,7 @@ footer {
 }
 
 .flogo {
-    font-family: Lato;
+    font-family: font.$main-font;
     font-style: 900;
     font-weight: 800;
     font-size: 24px;
@@ -26,7 +27,7 @@ footer {
 }
 
 .flogo__surfs {
-    font-family: Lato;
+    font-family: font.$main-font;
     font-style: 400;
     font-weight: 300;
     font-size: 24px;
