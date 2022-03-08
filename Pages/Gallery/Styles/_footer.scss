@@ -4,12 +4,13 @@ footer {
 
 .footer__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(4, 0.7fr);
+    column-gap: 15px;
 }
 
 .footer__logo {
-    grid-column: 1 / 5;
+    grid-column: 3 / 5;
     grid-row: 1 / 2;
 }
 
@@ -40,7 +41,7 @@ footer {
 }
 
 .footer__list { /*get ridd of ul inline 40px padding */
-    grid-column: 1 / 5;
+    grid-column: 3 / 12;
     grid-row: 2 / 3;
     white-space: nowrap;
     display: grid;
@@ -53,17 +54,19 @@ footer {
     // place-items: center;
 }
 
-.footer__linebox {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
-    display: grid;
-    place-content: center;
-}
+// .footer__linebox {
+//     grid-column: 3 / 12;
+//     grid-row: 3 / 4;
+//     display: grid;
+//     place-content: center;
+// }
 
 .footer__line {
+    grid-column: 3 / 12;
+    grid-row: 3 / 4;
     background-color: #FFF;
     height: 6px;
-    width: 90vw;
+    min-width: 500px;
 }
 
 .footer__link {
@@ -78,7 +81,7 @@ footer {
 }
 
 .footer__btn {
-    grid-column: 3 / 5;
+    grid-column: 11 / 12;
     grid-row: 1 / 2;
     display: grid;
     place-items: center;
@@ -91,14 +94,14 @@ footer {
 }
 
 .footer__socialsbox {
+    grid-column: 3 / 12;
+    grid-row: 4 / 5;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
 }
 
 .footer__rights {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
