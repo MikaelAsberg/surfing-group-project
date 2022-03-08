@@ -1,0 +1,112 @@
+footer {
+    background-color: #165A68;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(4, 0.7fr);
+    column-gap: 15px;
+}
+
+.footer__logo {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+.flogo {
+    font-family: Lato;
+    font-style: 900;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 62px;
+    /* identical to box height, or 258% */
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.flogo__surfs {
+    font-family: Lato;
+    font-style: 400;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 62px;
+    /* identical to box height, or 258% */
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.footer__li {
+    list-style: none;
+}
+
+.footer__list { /*get ridd of ul inline 40px padding */
+    grid-column: 3 / 12;
+    grid-row: 2 / 3;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    column-gap: 10px;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-direction: row;
+    // place-items: center;
+}
+
+// .footer__linebox {
+//     grid-column: 3 / 12;
+//     grid-row: 3 / 4;
+//     display: grid;
+//     place-content: center;
+// }
+
+.footer__line {
+    grid-column: 3 / 12;
+    grid-row: 3 / 4;
+    background-color: #FFF;
+    height: 6px;
+    min-width: 500px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #fff;
+}
+
+.footer__btn {
+    grid-column: 11 / 12;
+    grid-row: 1 / 2;
+    display: grid;
+    place-items: center;
+}
+
+.btn {
+    @extend %button;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
+
+.footer__socialsbox {
+    grid-column: 3 / 12;
+    grid-row: 4 / 5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.footer__rights {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 44px;
+    /* identical to box height, or 275% */
+    letter-spacing: 0.1em;
+    color: #FDFFFF;
+}
