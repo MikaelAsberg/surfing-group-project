@@ -1,13 +1,9 @@
-@use 'font';
 body{
-    max-width: 800px;
-    min-height: 1200px;
-    width: 100%;
-    background-color: #E5E5E5;
-    margin: auto;
+    text-align: center;
 }
-.main-foto{
-    display: flex;
+.main__container{
+    min-height: 100vh;
+    margin: 5vw;
 }
 .page-foto{
     max-width: 200px;
@@ -35,7 +31,7 @@ body{
     width: 100%;
 }
 .Title{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -44,7 +40,7 @@ body{
     color: #145967;
 }
 .info{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -54,7 +50,7 @@ body{
     line-height: 20px
 }
 .input-field{
-    font-family: font.$main-font;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -100,7 +96,7 @@ body{
 
 }
 .side-bar_title{
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
