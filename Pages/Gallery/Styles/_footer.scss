@@ -73,12 +73,17 @@ footer {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 14px;
     line-height: 62px;
     /* or 248% */
     letter-spacing: 0.15em;
     color: #FFFFFF;
+}
+
+.footer__link:hover {
+    color: #ffffff80;
+    transition: all .5s linear;
 }
 
 .footer__btn {

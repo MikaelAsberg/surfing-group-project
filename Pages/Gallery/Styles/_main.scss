@@ -7,73 +7,93 @@
 .grid__container { /* grid parent */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(22, 1fr);
     grid-gap: 15px;
     min-height: 100vh;
     margin-top: 15px;
 }
 
-/* .gird_element {
+.grid__element {
     overflow: hidden;
+    // max-height: 300px;
     position: relative;
-} */
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // object-fit: fill;
+}
+
+.grid__element:hover {
+    transform: scale(1.02);
+    transition: all .1s linear;
+}
+
+// .img {
+//     position: absolute;
+//     max-width: 200%;
+//     max-height: 200%;
+// }
 
 .first {
     background-color: purple;
-    grid-row: 1 / 6;
+    grid-row: 1 / 8;
     grid-column: 1 / 2;
+    background-image: url("Images/pexels-ging-ang-1753689.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .second {
     background-color: red;
-    grid-row: 1 / 7;
+    grid-row: 1 / 9;
     grid-column: 2 / 3;
 }
 
 .third {
     background-color: blue;
-    grid-row: 1 / 7;
+    grid-row: 1 / 8;
     grid-column: 3 / 5;
 }
 
 .fourth {
     background: #80B918;
-    grid-row: 6 / 13;
+    grid-row: 8 / 17;
     grid-column: 1 / 2;
 }
 
 .fifth {
     background: seagreen;
-    grid-row: 7 / 11;
+    grid-row: 9 / 15;
     grid-column: 2 / 3;
 }
 
 .sixth {
     background: purple;
-    grid-row: 7 / 11;
+    grid-row: 8 / 15;
     grid-column: 3 / 4;
 }
 
 .seventh {
     background: red;
-    grid-row: 7 / 13;
+    grid-row: 8 / 16;
     grid-column: 4 / 5;
 }
 
 .eighth {
     background: yellow;
-    grid-row: 13 / 17;
+    grid-row: 17 / 23;
     grid-column: 1 / 2;
 }
 
 .nineth {
     background: blue;
-    grid-row: 11 / 17;
+    grid-row: 15 / 23;
     grid-column: 2 / 4;
 }
 
 .tenth {
     background: seagreen;
-    grid-row: 13 / 17;
+    grid-row: 16 / 23;
     grid-column: 4 / 5;
 }
