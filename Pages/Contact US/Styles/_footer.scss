@@ -78,6 +78,9 @@ place-content: center;
     /* identical to box height, or 200% */
     color: #fff;
 }
+.footer__link:hover{
+    color: rgb(39, 177, 231);
+}
 
 .footer__btn {
     grid-column: 11 / 12;
