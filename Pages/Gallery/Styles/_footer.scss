@@ -17,7 +17,7 @@ footer {
 .flogo {
     font-family: Lato;
     font-style: 900;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 24px;
     line-height: 62px;
     /* identical to box height, or 258% */
@@ -28,7 +28,7 @@ footer {
 .flogo__surfs {
     font-family: Lato;
     font-style: 400;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
     line-height: 62px;
     /* identical to box height, or 258% */
@@ -73,11 +73,12 @@ footer {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 14px;
-    line-height: 28px;
-    /* identical to box height, or 200% */
-    color: #fff;
+    line-height: 62px;
+    /* or 248% */
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
 }
 
 .footer__btn {
@@ -102,6 +103,7 @@ footer {
 }
 
 .footer__rights {
+    font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
