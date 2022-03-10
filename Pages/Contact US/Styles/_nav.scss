@@ -15,7 +15,6 @@
 %button:hover{
     background: #e6c267;
 }
-
 .nav { /* make height smaller? */
     min-height: 80px;
     min-width: 500px;
@@ -26,7 +25,9 @@
     grid-template-rows: 0.5fr;
     column-gap: 15px;
 }
-
+%button:hover{
+    background: #e6c267;
+}
 .nav__logo {
     grid-column: 3 / 5;
     grid-row: 1 / 2;
@@ -88,6 +89,10 @@
 .nav__link:hover{
     color: #946528;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7e365c9249f696964750e8d1d84e15a449b1eaf0
 .nav__btn {
     grid-column: 11 / 12;
     grid-row: 1 / 2;
