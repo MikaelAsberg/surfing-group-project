@@ -1,13 +1,15 @@
 .main__container {
     min-height: 100vh;
-    margin: 5vw;
-
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .grid__container { /* grid parent */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(22, 1fr);
+    grid-template-rows: repeat(34, 1fr);
     grid-gap: 15px;
     min-height: 100vh;
     margin-top: 15px;
@@ -17,10 +19,10 @@
     overflow: hidden;
     // max-height: 300px;
     position: relative;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
 }
 
 .grid__element:hover {
@@ -28,72 +30,72 @@
     transition: all .1s linear;
 }
 
-// .img {
-//     position: absolute;
-//     max-width: 200%;
-//     max-height: 200%;
-// }
+.img {
+    position: absolute;
+    max-width: 405%;
+    max-height: 405%;
+}
 
 .first {
     background-color: purple;
-    grid-row: 1 / 8;
+    grid-row: 1 / 12;
     grid-column: 1 / 2;
-    background-image: url("Images/pexels-ging-ang-1753689.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    // background-image: url('[system-asset]Images/pexels-ging-ang-1753689.jpg[/system-asset]');
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: 50% 50%;
 }
 
 .second {
     background-color: red;
-    grid-row: 1 / 9;
+    grid-row: 1 / 15;
     grid-column: 2 / 3;
 }
 
 .third {
     background-color: blue;
-    grid-row: 1 / 8;
+    grid-row: 1 / 12;
     grid-column: 3 / 5;
 }
 
 .fourth {
     background: #80B918;
-    grid-row: 8 / 17;
+    grid-row: 12 / 27;
     grid-column: 1 / 2;
 }
 
 .fifth {
     background: seagreen;
-    grid-row: 9 / 15;
+    grid-row: 15 / 25;
     grid-column: 2 / 3;
 }
 
 .sixth {
     background: purple;
-    grid-row: 8 / 15;
+    grid-row: 12 / 25;
     grid-column: 3 / 4;
 }
 
 .seventh {
     background: red;
-    grid-row: 8 / 16;
+    grid-row: 12 / 28;
     grid-column: 4 / 5;
 }
 
 .eighth {
     background: yellow;
-    grid-row: 17 / 23;
+    grid-row: 27 / 35;
     grid-column: 1 / 2;
 }
 
 .nineth {
     background: blue;
-    grid-row: 15 / 23;
+    grid-row: 25 / 35;
     grid-column: 2 / 4;
 }
 
 .tenth {
     background: seagreen;
-    grid-row: 16 / 23;
+    grid-row: 28 / 35;
     grid-column: 4 / 5;
 }
